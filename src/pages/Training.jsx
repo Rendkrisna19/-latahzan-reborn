@@ -1,10 +1,19 @@
 import React from 'react'
 import lokasi1 from "../images/Logo Orange.png"
 import lokasi2 from "../images/Logo Orange.png"
+import backgroundImage from "../images/bg3.png"; 
 
 const Training = () => {
   return (
-    <div className="flex flex-col items-center p-4 bg-patner pt-20 md:pt-24">
+    
+    <div className="flex flex-col items-center p-4 bg-patner pt-20 md:pt-24 relative bg-cover bg-center min-h-screen p-8  "
+    
+    style={{
+      backgroundImage: `url(${backgroundImage})`,
+    }}
+    
+    >
+      
       {/* Header */}
       <header className="w-full mb-8">
         <h1 className="text-5xl font-bold text-center md:text-center md:text-6xl text-white">

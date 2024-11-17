@@ -1,6 +1,7 @@
 import React from 'react';
 import BackgroundImage from '../images/b2.jpg';
 
+
 const ContactUs = () => {
   return (
     <div className="flex flex-col items-center ">
@@ -18,8 +19,9 @@ const ContactUs = () => {
       </header>
 
       {/* Contact Info Section */}
-      <section className="w-full max-w-4xl mx-auto py-12 px-6">
-        <h2 className="text-center text-2xl font-semibold mb-6 text-green-800">Get in touch</h2>
+      <section className="w-full  mx-auto py-12 px-6 bg-green-900 ">
+     
+        <h2 className="text-center text-2xl font-semibold mb-6 text-white">Get in touch</h2>
         <p className="text-center mb-8 font-contactUs"> Hubungi Kami dibawah ini 
         </p>
 
@@ -55,6 +57,7 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
+      
     </div>
   );
 };

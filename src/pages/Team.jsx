@@ -7,7 +7,7 @@ import player3 from "../images/Team/rendy.png";
 import player3Hover from "../images/Team/hover.jpg";
 import player4 from "../images/Team/rendy.png";
 import player4Hover from "../images/Team/hover.jpg";
-import backgroundImage from "../images/2.jpg"; // Import gambar latar belakang
+import backgroundImage from "../images/bg3.png"; // Import gambar latar belakang
 
 import choach from "../images/flyer 1.png";
 import choachHover  from"../images/flyer 1.png";
@@ -85,7 +85,7 @@ const PlayersAndCoach = () => {
 
   return (
     <div
-      className="relative bg-cover bg-center min-h-screen p-8"
+      className="relative bg-cover bg-center min-h-screen p-8 "
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}

@@ -8,36 +8,35 @@ import Media from "./pages/Media";
 import Corp from "./pages/Corp";
 import Membership from "./pages/Membership";
 import ContactUs from "./pages/ContactUs";
-import Partner from "./components/Partner";
 import Game from "./pages/Game";
-import Training from "./pages/Training"
+import Training from "./pages/Training";
+import Videos from "./pages/Videos"; // Konsisten dengan nama file
+import Images from "./pages/images"; // Konsisten dengan nama file
 
-
-const App = () => { 
+const App = () => {
   return (
     <Router>
       <Navbar />
       <Routes>
-        {/* Halaman utama yang memuat Hero, Partner*/}
-        <Route 
-          path="/" 
+        {/* Halaman utama yang memuat Hero */}
+        <Route
+          path="/"
           element={
             <>
               <Hero />
-              {/* <Partner /> */}
-              
             </>
           }
         />
-        <Route path="/Team" element={<Team />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/schedule" element={<Schedule />} />
-        <Route path="/Training" element={<Training />} /> 
-        <Route path="/game" element={<Game />} /> 
-        <Route path="/Media" element={<Media />} />
-        <Route path="/Corp" element={<Corp />} />
-        <Route path="/Membership" element={<Membership />} />
-        <Route path="/Contact Us" element={<ContactUs />} />
-        
+        <Route path="/training" element={<Training />} />
+        <Route path="/game" element={<Game />} />
+        <Route path="/media" element={<Media />} />
+        <Route path="/videos" element={<Videos />} />
+        <Route path="/images" element={<Images />} />
+        <Route path="/corp" element={<Corp />} />
+        <Route path="/membership" element={<Membership />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
       </Routes>
     </Router>
   );
