@@ -1,17 +1,41 @@
 import React, { useState } from "react";
-import player1 from "../images/Team/rendy.png";
-import player1Hover from "../images/Team/hover.jpg";
-import player2 from "../images/Team/rendy.png";
-import player2Hover from "../images/Team/hover.jpg";
-import player3 from "../images/Team/rendy.png";
-import player3Hover from "../images/Team/hover.jpg";
-import player4 from "../images/Team/rendy.png";
-import player4Hover from "../images/Team/hover.jpg";
+//Player
+import player1 from "../images/Team/1.png"; //gambar player
+import player2 from "../images/Team/2.png";
+import player3 from "../images/Team/3.png";
+import player4 from "../images/Team/4.png";
+import player5 from "../images/Team/5.png"; //gambar player
+import player6 from "../images/Team/6.png";
+import player7 from "../images/Team/7.png";
+import player8 from "../images/Team/8.png";
+import player9 from "../images/Team/9.png";
+import player10 from "../images/Team/10.png"; //gambar player
+import player11 from "../images/Team/11.png";
+import player12 from "../images/Team/12.png";
+import player13 from "../images/Team/13.png";
+
 import backgroundImage from "../images/bg3.png"; // Import gambar latar belakang
 
+//Hover Player
+import player1Hover from "../images/Logo Orange.png"; //Hover Gambarnya
+import player2Hover from "../images/Logo Orange.png";
+import player3Hover from "../images/Logo Orange.png";
+import player4Hover from "../images/Logo Orange.png";
+import player5Hover from "../images/Logo Orange.png"; //Hover Gambarnya
+import player6Hover from "../images/Logo Orange.png";
+import player7Hover from "../images/Logo Orange.png";
+import player8Hover from "../images/Logo Orange.png";
+import player9Hover from "../images/Logo Orange.png";
+import player10Hover from "../images/Logo Orange.png"; //Hover Gambarnya
+import player11Hover from "../images/Logo Orange.png";
+import player12Hover from "../images/Logo Orange.png";
+import player13Hover from "../images/Logo Orange.png";
+
+//Choach Gambar
 import choach from "../images/flyer 1.png";
-import choachHover  from"../images/flyer 1.png";
 import choach2 from "../images/flyer 1.png";
+//Hover Choach
+import choachHover  from"../images/flyer 1.png";
 import choachHover2 from "../images/flyer 1.png";
 
 // Komponen untuk menampilkan kartu pemain
@@ -55,20 +79,40 @@ const PlayersAndCoach = () => {
       hoverImage: player4Hover,
     },
     {
-      image: player1,
-      hoverImage: player1Hover,
+      image: player5,
+      hoverImage: player5Hover,
     },
     {
-      image: player2,
-      hoverImage: player2Hover,
+      image: player6,
+      hoverImage: player6Hover,
     },
     {
-      image: player3,
-      hoverImage: player3Hover,
+      image: player7,
+      hoverImage: player7Hover,
     },
     {
-      image: player4,
-      hoverImage: player4Hover,
+      image: player8,
+      hoverImage: player8Hover,
+    },
+    {
+      image: player9,
+      hoverImage: player9Hover,
+    },
+    {
+      image: player10,
+      hoverImage: player10Hover,
+    },
+    {
+      image: player11,
+      hoverImage: player11Hover,
+    },
+    {
+      image: player12,
+      hoverImage: player12Hover,
+    },
+    {
+      image: player13,
+      hoverImage: player13Hover,
     },
   ];
 

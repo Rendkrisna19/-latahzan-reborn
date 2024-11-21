@@ -1,6 +1,6 @@
-import React from 'react';
-import BackgroundImage from '../images/b2.jpg';
-import PlayerImage from '../images/Team/Luka_Dončić_2021-removebg-preview.png';
+import React from "react";
+import BackgroundImage from "../images/b2.jpg";
+import PlayerImage from "../images/Team/Team.png";
 
 const Membership = () => {
   return (
@@ -14,22 +14,26 @@ const Membership = () => {
       <div className="absolute inset-0 bg-green-900 opacity-80"></div>
 
       {/* Gambar Player */}
-      <div className="relative w-full lg:w-1/2 flex justify-center lg:justify-end">
+      <div className="relative w-full lg:w-3/4 flex justify-center lg:justify-end">
         <img
           src={PlayerImage}
           alt="Player"
-          className="w-3/4 lg:w-[500px] h-auto max-w-md object-contain z-10"
+          className="w-[900px] h-auto max-w-lg lg:w-[700px] object-contain z-10"
           style={{
-            filter: 'drop-shadow(0 0 30px rgba(255, 255, 255, 0.6))',
+            filter: "drop-shadow(0 0 40px rgba(255, 255, 255, 0.7))",
           }}
         />
       </div>
 
       {/* Form Section */}
       <div className="relative w-full lg:w-1/2 p-8 lg:p-16 text-white z-10">
-        <h1 className="text-3xl lg:text-5xl font-bold mb-4">JOIN <span className='text-green-400'>LatahZan</span></h1>
+        <h1 className="text-3xl lg:text-5xl font-bold mb-4">
+          JOIN <span className="text-green-400">LatahZan</span>
+        </h1>
         <p className="mb-6">
-          Elevate your MFFL status by becoming a Mavs Insider! Keep your finger on the pulse of all things Mavs including tickets, news, game info, exclusive merch drops, promotions, and more.
+          Elevate your MFFL status by becoming a Mavs Insider! Keep your finger
+          on the pulse of all things Mavs including tickets, news, game info,
+          exclusive merch drops, promotions, and more.
         </p>
 
         {/* Form */}
@@ -77,7 +81,8 @@ const Membership = () => {
           <div className="flex items-center gap-2">
             <input type="checkbox" id="consent" required />
             <label htmlFor="consent" className="text-sm">
-              By clicking SUBMIT, I verify I have read and agree to the Privacy Policy and Terms of Use.
+              By clicking SUBMIT, I verify I have read and agree to the Privacy
+              Policy and Terms of Use.
             </label>
           </div>
           <button
